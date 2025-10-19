@@ -1,5 +1,5 @@
 # Brain Tumor VGG16 Transfer Learning
-Deep learning brain tumor classification using fine-tuned VGG16 with transfer learning. Achieves 89% accuracy in classifying MRI scans into 4 categories: glioma, meningioma, pituitary tumor, and no tumor.
+Deep learning brain tumor classification using fine-tuned VGG16 with transfer learning. Achieves 97.3% accuracy in classifying MRI scans into 4 categories: glioma, meningioma, pituitary tumor, and no tumor.
 
 ## About the Project
 This system analyzes MRI brain scans to classify them into four categories:
