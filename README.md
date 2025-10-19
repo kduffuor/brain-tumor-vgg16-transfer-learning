@@ -11,8 +11,8 @@ This system analyzes MRI brain scans to classify them into four categories:
 The model uses transfer learning with a pre-trained VGG16 architecture, fine-tuned on brain MRI data to achieve medical-grade classification accuracy.
 
 ## Dataset
-- **Training samples**: 1,311 images with augmentation
-- **Testing samples**: 5,712 images
+- **Training samples**: 5712 images with augmentation
+- **Testing samples**: 1311 images
 - **Image size**: 224x224 pixels
 - **Classes**: 4 balanced categories
 - **Format**: RGB MRI scan images
@@ -39,17 +39,17 @@ The model uses transfer learning with a pre-trained VGG16 architecture, fine-tun
   - Output layer (4 neurons, Softmax activation)
 
 ## Key Results
-The model achieved **89% overall accuracy** with the following performance:
+The model achieved **97.3% overall accuracy** with the following performance:
 
-- **Glioma**: 91% precision, 88% recall
-- **Meningioma**: 74% precision, 85% recall  
-- **No Tumor**: 96% precision, 95% recall
-- **Pituitary**: 95% precision, 86% recall
+- **Glioma**: 96% precision, 96% recall
+- **Meningioma**: 95% precision, 94% recall  
+- **No Tumor**: 99% precision, 100% recall
+- **Pituitary**: 98% precision, 99% recall
 
 ### Confidence Analysis
-- Average confidence for correct predictions: 91.9%
-- Average confidence for wrong predictions: 69.6%
-- High confidence predictions (>90%) achieve 98.3% accuracy
+- Average confidence for correct predictions: 99.2%
+- Average confidence for wrong predictions: 85.7%
+- High confidence predictions (>90%) achieve 98.6% accuracy
 
 ## Features
 - **Data Augmentation**: Brightness and contrast variations during training
