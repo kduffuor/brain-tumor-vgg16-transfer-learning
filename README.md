@@ -16,7 +16,7 @@ The model uses transfer learning with a pre-trained VGG16 architecture, fine-tun
 - **Image size**: 224x224 pixels
 - **Classes**: 4 balanced categories
 - **Format**: RGB MRI scan images
-- **Source**: [Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
+- **Source**: [Brain-Tumor-MRI-Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset)
 
 ## Tools and Technologies Used
 - **Python**: Core programming language
